@@ -1,5 +1,7 @@
 	//****************************************************************
 
+
+
 	var auth = { 
 	    consumerKey: "pu0FZK1NCYaEjpeB4knDZw", 
 	    consumerSecret: "aibygSsZLkPTUm_xwUFEvrnUeZc",
@@ -7,7 +9,7 @@
 	    accessTokenSecret: "4-BdFvqqfWR8q5ZhzUQ_fwlQEco",
 	  };
 	//*****************************************************************
-
+		OAuth.initialize(auth);
 		var terms = 'happy hour';
 	  	var near = 'Portland';
 	  	var sort = 0;
@@ -43,4 +45,14 @@
 	  var url = OAuth.addToURL(message.action,parameterMap);
 	  var response = UrlFetchApp.fetch(url).getContentText();
 	  var responseObject = Utilities.jsonParse(response);
-	  //have my JSON object, do whatever we want here, like add to spreadsheets
+	  
+
+$(document).ready(function() {
+	console.log("im working");
+	$(".yelp").append(responseObject);
+
+
+
+
+
+});
