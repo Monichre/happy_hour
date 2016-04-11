@@ -13,13 +13,15 @@
 	<header>
 		<h1>Google Search API</h1>
 	</header>
+
 	<main>
 		<div class="search">
 			<gcse:search></gcse:search>
 		</div>
-		<aside>
-			<a class="twitter-timeline" href="https://twitter.com/search" data-widget-id="718209778942541824">Tweets about </a>
-		</aside>
+		<div class="tweets-container">
+			
+		</div>
+		<button href = "#" id="submit">Get Tweets</button>
 		<section class="yelp">
 			<h1>This is the Yelp div </h1>
 			<label>Enter a city bellow to see most popular bars.</label>
@@ -27,19 +29,21 @@
 			<button onclick="genYelp()">Generate Yelp Results</button>
 			<div id="yelp-output"></div>
 		</section>
+
 	</main>
 
 
-	
+
 	<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
-	<script src="/bower_components/oauth-signature/dist/oauth-signature.js"></script>
-	<script src="js/jquery.oauth.js"></script>
+	<!-- <script src="js/jquery.oauth.js"></script>
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
 	<script type="text/javascript" src="http://oauth.googlecode.com/svn/code/javascript/oauth.js"></script>
 	<script type="text/javascript" src="http://oauth.googlecode.com/svn/code/javascript/sha1.js"></script>
-	<script src="js/twitter.js"></script>
-	<script src="js/search.js"></script>
+	<script src="js/qs.js"></script>
+	<script src="js/Twitter.js"></script>
 	<script src="js/main.js"></script>
+	<script src="js/tweets.js"></script> -->
+	<script type="text/javascript" src="js/attemps.js"></script>
 </body>
 
 </html>

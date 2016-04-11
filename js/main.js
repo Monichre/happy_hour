@@ -2,7 +2,7 @@
 		//*****************************************************************
 			
 
-	function genYelp() {
+function genYelp() {
 	var auth = {
 	  consumerKey: "9vZfVDP_dINI6KFtLfFYfA",
 	  consumerSecret: "g2QgG109oBvlf1bUx4ySSpWmlew",
@@ -81,7 +81,7 @@
 	    $("body").append("<\p>");
 	    $("body").append("<p>");
 	    $("body").append(" The Deal Yo: ");
-	    $("body").append(data.businesses[i].);
+	    $("body").append(data.businesses[i]);
 	    $("body").append("      ");
 	    $("body").append("<\p>");
 	   }

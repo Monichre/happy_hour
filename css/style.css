@@ -1,3 +1,12 @@
 h1 {
 	text-align: center;
 }
+
+.tweets-container {
+	margin: auto;
+	text-align: center;
+	margin: 30px;
+	border: solid;
+	border-color: black;
+	height: 300px;
+}
